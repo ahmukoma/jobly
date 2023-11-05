@@ -1,1 +1,1 @@
-# jobly
+# initiated a React Jobly repository
