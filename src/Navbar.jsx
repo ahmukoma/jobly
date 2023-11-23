@@ -19,9 +19,9 @@ function Navbar (){
     function logout(){
         setToken(JoblyApi.getCurrentUser(true));
     }
-
+    
     function loggedIn(){
-        if (token.token !== ''){
+        if (token.token){
             return (
                 <>
                 <li><Link to='/companies' className={`${highlight('companies')}`} >Companies</Link></li>
