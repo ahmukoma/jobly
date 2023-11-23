@@ -1,0 +1,16 @@
+.CompanyDetails{
+    padding: 2rem;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #FFF;
+    border: 1px solid #EFEFEF;
+    font-family: 'inter', sans-serif;
+}
+
+.CompanyDetails *{
+    margin: 0.5rem;
+}
+
+.Handle{
+    color: #08F;
+}

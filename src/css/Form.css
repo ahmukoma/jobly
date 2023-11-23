@@ -1,0 +1,86 @@
+.Form{
+    flex-direction: column;
+    display: flex;
+    position: relative;
+    height: 100%;
+    font-family: 'inter', sans-serif;
+}
+
+.Form-container{
+    margin: 2rem auto;
+    border: 1px solid #eee;
+    padding: 2rem;
+    box-shadow: 5px 5px 3px #eee;
+    border-radius: 4px;
+    background-color: #FFF;
+    width: 28%;
+    min-width: 440px;
+}
+
+.heading{
+    font-size: 2.54rem;
+    color: #272727;
+    margin: 1rem auto;
+}
+
+.Form .Input-wrapper{
+    margin: 1rem 2rem;
+}
+
+.Form .lbl{
+    display: block;
+    color: #272727;
+    text-transform: capitalize;
+}
+
+.center{
+    text-align: center;
+}
+
+.Form input, .submit{
+    padding: 0.4rem 1rem;
+    border: 1px solid #E8E8E8;
+    margin: 0.2rem 0;
+    width: 100%;
+    border-radius: 4px;
+    font: 1rem 'inter';
+    color: #272727;
+}
+
+.Form input::placeholder, .submit{
+    text-transform: capitalize;
+}
+
+.terms-container{
+    border: 1px solid #eee;
+    padding: 1rem 0;
+    border-left: 0;
+    border-right: 0;
+}
+
+.terms{
+    color: #888;
+}
+
+.terms a{
+    color: #08F;
+}
+
+.terms a:hover{
+    text-decoration: underline;
+}
+
+.submit{
+    background-color: #08f;
+    padding: 1rem;
+    font-size: 1.2rem;
+    color: #FFF;
+    cursor: pointer;
+}
+
+.Form-errors{
+    text-align: center;
+    color: red;
+    font-family: 0.8rem;
+    position: relative;
+}

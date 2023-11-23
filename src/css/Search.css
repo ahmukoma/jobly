@@ -1,0 +1,34 @@
+.Search{
+    padding: 2rem 0;
+    margin: 1rem auto;
+    max-width: 800px;
+    background-color: #FFF;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.Search-form{
+    display: flex;
+}
+
+.Search-bar{
+    margin: auto;
+}
+
+.Search-bar input{
+    width: 400px;
+    border-top-left-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+}
+
+.Search-bar input, .Search-bar button{
+    border: 1px solid #DDD;
+    padding: 1rem;
+    font-family: 'inter', sans-serif;
+    font-size: 1.25rem;
+}
+
+.Search-bar button{
+    background-color: #DDD;
+    border-left: 0;
+    cursor: pointer;
+}

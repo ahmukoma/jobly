@@ -1,0 +1,90 @@
+*{
+    border: 0;
+    box-sizing: border-box;
+    list-style: none;
+    margin: 0;
+    padding: 0%;
+    text-decoration: none;
+}
+
+.Navbar{
+    border-bottom: 1px solid #DDD;
+    display: flex;
+    padding: 0.25rem;
+    background-color: #fcfcfc;
+    height: 4rem;
+}
+
+.Navbar a{
+    color: #FFF;
+}
+
+.Navbar *{
+    margin: auto;
+    font-family: 'Playfair display', serif;
+}
+
+.Navbar-logo{
+    background-color: rgb(233, 74, 38);
+    color: #FFF;
+    margin-left: 4rem;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.Navbar-logo::before, .Navbar-logo::after{
+    content: '';
+    position: absolute;
+    background-color: #FFF;
+    width: 4px;
+    height: 100%;
+}
+
+.Navbar-logo::before{
+    left: 6px;
+}
+
+.Navbar-logo::after{
+    right: 6px;
+}
+
+.Navbar-links{
+    display: flex;
+    margin-right: 4rem;
+}
+
+.Navbar-links li{
+    margin: 1rem;
+    position: relative;
+}
+
+.Navbar-links a, .Navbar-links button{
+    color: #888;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: #0000;
+    cursor: pointer;
+}
+
+.Navbar-links .lo-hot{
+    color: rgba(233, 46, 46);
+}
+
+.Navbar-links .selected{
+    color: #000;
+}
+
+.Navbar-links li::before{
+    position: absolute;
+    height: 4%;
+    width: 100%;
+    bottom: -2px;
+    background-color: rgb(233, 74, 38);
+    content: '';
+    transition: 0.19s;
+    transform: scale(0);
+}
+
+.Navbar-links li:hover:before{
+    transform: scale(1);
+}

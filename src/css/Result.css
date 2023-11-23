@@ -1,0 +1,17 @@
+.Result{
+    font-family: 'inter', sans-serif;
+    margin: 0.2rem 1rem;
+    padding: 1rem;
+    background-color: #F8F8F8;
+    border-top: 1px solid #EEE;
+    border-right: 0;
+    border-left: 0;
+    display: block;
+    color: #000;
+}
+
+.Result:hover{
+    background-color: #FEFEFE;
+    cursor: pointer;
+    color:#08f;
+}

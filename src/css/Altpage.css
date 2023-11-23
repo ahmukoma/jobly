@@ -1,0 +1,14 @@
+.Altpage{
+    font-family: 'inter', sans-serif;
+    padding: 1rem;
+    text-align: center;
+}
+
+.Altpage a{
+    color: #08F;
+    font-size: 0.8rem;
+}
+
+.Altpage A:hover{
+    text-decoration: underline;
+}

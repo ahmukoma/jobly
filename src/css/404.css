@@ -1,0 +1,11 @@
+.PageNotFound{
+    text-align: center;
+    font-family: 'inter', sans-serif;
+    padding: 4rem 0;
+    margin: auto;
+    color: #AAA;
+}
+
+.faulty{
+    font-size: 4rem;
+}

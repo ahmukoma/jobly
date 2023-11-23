@@ -1,0 +1,23 @@
+.Home{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    padding: 2rem;
+    margin: auto;
+    font: 1.3rem 'inter';
+    position: relative;
+}
+
+.Home-links button{
+    margin: 1rem;
+}
+
+.Home-links a{
+    display: inline-block;
+    background-color: #08f;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFF;
+}

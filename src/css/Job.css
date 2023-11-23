@@ -1,0 +1,34 @@
+.Job{
+    font-family: 'inter', sans-serif;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #FDFDFD;
+    border: 1px solid #EEE;
+}
+
+.Job-bucket{
+    margin: 0.4rem;
+    background-color: #FAFAFA;
+    border: 1px solid #eee;
+    padding: 0.4rem 1rem;
+}
+
+.Job-company{
+    margin: 0.2rem 0;
+}
+
+.Job-description{
+    margin-bottom: 1rem;
+}
+
+.Job-apply{
+    padding: 0.4rem;
+    color: #FAFAFA;
+    background-color: #05F;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.Job-apply:disabled{
+    background-color: #0AF;
+}
